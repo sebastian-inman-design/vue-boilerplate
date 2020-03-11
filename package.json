@@ -1,0 +1,43 @@
+{
+  "name": "@sebastian-inman-design/vue-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate library of Vue components, interfaces, and more",
+  "repository": "https://github.com/sebastian-inman-design/vue-boilerplate",
+  "keywords": [
+    "vue",
+    "boilerplate",
+    "library",
+    "components",
+    "interfaces"
+  ],
+  "author": {
+    "name": "Sebastian Inman",
+    "email": "sebastian@seedscs.com"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.2",
+    "vue-property-decorator": "^8.3.0",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@sebastian-inman-design/scss-bootstrap": "1.0.0",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-typescript": "~4.2.0",
+    "@vue/cli-plugin-vuex": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "sass-resources-loader": "^2.0.1",
+    "typescript": "~3.7.5",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "license": "ISC"
+}
